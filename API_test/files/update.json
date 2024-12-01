@@ -1,0 +1,44 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "cхема для проверки update",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "name",
+        "job",
+        "updatedAt"
+    ],
+  "additionalProperties": false,
+  "properties": {
+        "name": {
+            "type": "string",
+            "default": "",
+            "title": "The name Schema",
+            "examples": [
+                "morpheus"
+            ]
+        },
+        "job": {
+            "type": "string",
+            "default": "",
+            "title": "The job Schema",
+            "examples": [
+                "zion resident"
+            ]
+        },
+        "updatedAt": {
+            "type": "string",
+            "default": "",
+            "title": "The updatedAt Schema",
+            "examples": [
+                "2024-12-01T19:52:48.240Z"
+            ]
+        }
+    },
+    "examples": [{
+        "name": "morpheus",
+        "job": "zion resident",
+        "updatedAt": "2024-12-01T19:52:48.240Z"
+    }]
+}

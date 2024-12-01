@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "проверка логина",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "token"
+    ],
+  "additionalProperties": false,
+  "properties": {
+        "token": {
+            "type": "string",
+            "default": "",
+            "title": "The token Schema",
+            "examples": [
+                "QpwL5tke4Pnpja7X4"
+            ]
+        }
+    },
+    "examples": [{
+        "token": "QpwL5tke4Pnpja7X4"
+    }]
+}
